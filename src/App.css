@@ -1,0 +1,60 @@
+:root{
+  --mainBlue:#2a2a72;
+  --lightBlue:#009ffd;
+  --mainWhite:#f3f3f3;
+  --mainDark:#232528;
+  --mainYellow:#ffa400;
+}
+
+body{
+  font-family: "Oswald", sans-serif !important;
+  background: var(--mainWhite) !important;
+  color:var(--mainDark) !important;
+}
+
+.text-title{
+  font-family: "Permanent Marker", cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.text-blue{
+  color: var(--mainBlue);
+}
+.text-bright{
+  color: var(--lightBlue);
+}
+
+.btn-my-black{
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainDark);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
+}
+
+.btn-my-black:hover{
+  background: grey !important;
+  color: var(--mainDark) !important;
+}
+
+.btn-sign-up{
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 1.3rem !important;
+  color: var(--lightBlue);
+  border-radius: 0 !important;
+  cursor: pointer !important;
+}
+
+.btn-sign-up:hover{
+  color: var(--mainBlue) !important;
+  text-decoration: underline;
+}
+
+.cart-icon{
+  cursor: pointer !important;
+  font-size: 1.2rem;
+  color: var(--mainDark);
+}
